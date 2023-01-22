@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+   
+
+/*------------------index-----------------*/
+
+a { font-size: 35px ;
+    margin-left:  50px ;
+    margin-right: 50px ;
+}
+
+a:hover {
+    background-color: #ffc340 ;
+    border-radius: 10px 10px 10px 10px; 
+}
+
+ul {
+    padding: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #ff9800;
+    border: 1px solid white;
+}
+
+main {
+    background-color: black;
+    padding: 30px;
+}
+
+aside {
+    text-align: center;
+    background-color: #ffc340;
+}
+
+footer {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h5{
+    color: white !important;
+ }
+
+.video {
+    padding: 70px 70px 70px 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.logo_img{
+    width: 150px;
+    padding: 15px 15px 15px 15px;
+}
+
+.header_nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 40px;
+    grid-template-areas: 
+    "card1 card2"
+    "card3 card4";
+    padding-left: 40px;  
+        
+}
+
+.card
+{
+    background-color: black !important;
+}
+
+
+
+
+/*----------------ofertas-----------------*/
+
+.ofertas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 40px;
+    
+}
+.oferta_section{
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.filtrar {
+    text-align: left;
+    padding: 20px;
+
+}
+
+.pago {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ff9800;
+}
+
+.img_oferta{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+   
+
+@media screen and (max-width:500px) {
+   
+    .res{
+        grid-template-columns: 100%;
+    }
+
+    .pollo{
+        grid-template-columns: 100%;
+    }
+
+    .porcina{
+        grid-template-columns: 100%;
+    }
+
+    .pescado{
+        grid-template-columns: 100%;
+    }
+
+    .img_footer{
+        width: 300px;
+    }  
+      
+    .header_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+}
+
+
+
+@media screen and (max-width:1000px) {
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    justify-content: center;
+    padding-left: 0px;
+    }
+
+    
+
+
+}

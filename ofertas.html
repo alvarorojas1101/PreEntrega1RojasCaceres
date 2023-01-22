@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ricarnes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="header_nav">
+            <div class="logo">
+                <img class= logo_img src="images/logo.jpg" alt="logo de la pagina">
+            </div>
+            <div>
+                <ul>
+                    <li> <a href="index.html">Inicio</a></li>
+                    <li> <a href="ofertas.html">Ofertas</a></li>
+                    <li> <a href="galeria.html">Galeria</a></li>
+                    <li> <a href="ubicacion.html">Ubicacion</a></li>
+                    <li> <a href="contacto.html">Contacto</a></li>
+                </ul>  
+            </div>
+           
+        </nav>
+
+    </header>
+    <main>
+    <h1>Ofertas</h1> 
+    
+    <section class="ofertas">
+        
+        <div class="container">
+            <div class="row">
+                <main id="items" class="col-sm-8 row"></main>
+                <aside class="col-sm-4">
+                    <h2>Carrito</h2>
+                    <ul id="carrito" class="list-group"></ul>
+                    <hr>
+                    <p class="text-right">Total: <span id="total"></span>&dollar;</p>
+                    <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                </aside>
+            </div>
+        </div>
+        
+    </section> 
+    </main>
+    <aside>
+        <div class="filtrar">
+            <h3>Filtrar por:</h3>
+            <h3>Precio</h3>
+            <h3>Tipo de producto</h3>
+            <h3>Uso</h3>
+        </div>
+    </aside>
+    <footer>
+
+        <div class="pago">
+            <h3>Medios de pago </h3>
+            <img class="img_footer" src="images/baner-de-tarjetas_1.png" alt="baner-de-tarjetas">
+        </div>
+    </footer>
+
+<link rel="stylesheet" href="style.css">    
+<script src="./funciones.js"></script>    
+</body>
+
+</html>
